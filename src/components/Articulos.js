@@ -32,11 +32,11 @@ const Articulos = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="mb-3">
               <label className="form-label">Nombre:</label>
-              <input type="text" className="form-control" {...register('nombre')} />
+              <input type="text" className="form-control" {...register('Nombre')} />
             </div>
             <div className="mb-3">
               <label className="form-label">Activo:</label>
-              <select className="form-select" {...register('activo')}>
+              <select className="form-select" {...register('Activo')}>
                 <option value="">Todos</option>
                 <option value="true">Sí</option>
                 <option value="false">No</option>
