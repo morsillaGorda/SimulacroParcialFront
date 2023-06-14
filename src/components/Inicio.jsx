@@ -9,8 +9,8 @@ function Inicio() {
         className="mt-4 p-5 rounded"
         style={{ backgroundColor: "lightgray" }}
       >
-        <h1>Ejercicio Integrador</h1>
-        <p>Practica simulacro parcial...</p>
+        <h1>Parcial práctico DDS</h1>
+        <p>UTN - FRC</p>
       </div>
     </div>
   );
